@@ -33,8 +33,7 @@ from data_processing import (
 
 ASSETS_DIR   = os.path.join(APP_DIR, "assets")
 MODELS_DIR   = os.path.join(APP_DIR, "models")
-DATASET_PATH = os.path.join(os.path.dirname(APP_DIR), "job_salary_prediction_dataset.csv")
-
+DATASET_PATH = os.path.join(APP_DIR, "job_salary_prediction_dataset.csv")
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
